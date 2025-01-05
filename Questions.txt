@@ -1,0 +1,15 @@
+Questions:
+1.Answer the questions
+Given bracket sequence: [((())()(())]]
+2.Can this sequence be considered correct?
+If the answer to the previous question is “no”, then what needs to be changed in it to make it correct?
+
+
+Answer:
+1.No. Reason - Number of brackets. 1 opening square brackets and two closing square brackets.
+6 closing round brackets and only 5 closing round brackets.
+
+2. I should validate if there is equity among the brackets.
+There must be an equal number of opening and closing brackets, so we have a number of solutions:
+1 -  Eliminate unpaired brackets - [(()())(())]
+2 -  Add pair to brackets without a pair - [[((())()(()))]]
